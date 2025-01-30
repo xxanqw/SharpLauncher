@@ -235,7 +235,7 @@
             this.MinimumSize = new System.Drawing.Size(785, 482);
             this.Name = "MainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "SHARPLAUNCHER";
             this.rbmMenu.ResumeLayout(false);
             this.mainPanel.ResumeLayout(false);
             this.mainPanel.PerformLayout();

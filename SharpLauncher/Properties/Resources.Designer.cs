@@ -71,12 +71,12 @@ namespace SharpLauncher.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Bitmap panelbg {
+        internal static System.Drawing.Icon sllogo {
             get {
-                object obj = ResourceManager.GetObject("panelbg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("sllogo", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
             }
         }
         

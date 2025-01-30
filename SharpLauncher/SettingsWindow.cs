@@ -24,6 +24,8 @@ namespace SharpLauncher
         private void InitUI()
         {
             LoadBG();
+            this.Icon = Properties.Resources.sllogo;
+
             memoryUpDown.Value = Properties.Settings.Default.Memory;
             portBox.Controls[0].Visible = false;
             widthBox.Controls[0].Visible = false;

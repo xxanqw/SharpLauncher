@@ -40,6 +40,7 @@ namespace SharpLauncher
 
         private void InitUI()
         {
+            this.Icon = Properties.Resources.sllogo;
             LoadBG();
             Properties.Settings.Default.PropertyChanged += UpdateUI;
             LoadAccounts();

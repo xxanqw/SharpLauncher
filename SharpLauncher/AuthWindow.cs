@@ -20,6 +20,7 @@ namespace SharpLauncher
         public AuthWindow()
         {
             InitializeComponent();
+            this.Icon = Properties.Resources.sllogo;
             LoadAccounts();
             microsoft = new AccountManagers.Microsoft();
         }
